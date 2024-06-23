@@ -6,7 +6,7 @@ restaurantes = [{"nome": "Praça", "categoria":"Japonesa","ativo":False},
 
 
 def exibir_nome_do_programa():
-     ''' Exibe o nome estilizado do programa na tela '''
+    ''' Exibe o nome estilizado do programa na tela '''
     print("""
       𝓢𝓪𝓫𝓸𝓻𝔃𝓲𝓷𝓱𝓸 𝓻𝓪́𝓹𝓲𝓭𝓸
       """)
@@ -72,7 +72,7 @@ def escolher_opcoes():
         opcao_invalida()
 
 def cadastrar_novo_restaurante():
-     ''' Essa função é responsável por cadastrar um novo restaurante 
+    ''' Essa função é responsável por cadastrar um novo restaurante 
     
     Inputs:
     - Nome do restaurante
